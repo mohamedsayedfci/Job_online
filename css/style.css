@@ -1,0 +1,254 @@
+
+.navbar-inverse{
+	background-color:#020202;
+}
+.navbar-inverse .navbar-nav > li > a{
+	font-size: 23px;
+	font-weight: bold;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New,
+	monospace;
+	color: white;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: #9DD2DB;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: rgba(255,251,251,1.00);
+	color: black;
+}
+.navbar-nav > li > .dropdown-menu{
+	background-color: #010101;
+	color: white;
+}
+.dropdown-menu > li > a{
+	font-size: 23px;
+	font-weight: bold;
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New,
+	monospace;
+	color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #090808;
+	background-color: rgba(255,251,251,1.00);
+}
+#mm{
+	background-image:url(../images/carpenter.jpg);
+	background-size: 100%;
+}
+.carousel-inner{
+	background:rgba(215,207,207,.1);
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	width: 70%;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	border-radius: 20px;
+}
+.carousel-indicators li{
+	width: 22px;
+	height: 22px;
+}
+.carousel-indicators{
+	bottom: 10px;
+}
+.carousel-indicators .active{
+	width: 24px;
+	height: 24px;
+	background-color: #ccc;
+}
+.carousel-caption{
+	background-color: rgba(171,165,220,0.3);
+	bottom: 70px;
+	right: 20%;
+	left: 20%;
+	border-radius: 20px;
+}
+.carousel-caption p,h1{
+	text-transform: capitalize;
+}
+.glyphicon-chevron-left:before{
+	content: "\e132";
+}
+.glyphicon-chevron-right:before{
+	content: "\e131";
+}
+.about_site{
+	min-height: 400px;
+	background-color: #EBEBEB;
+}
+.progress-bar-success{
+	    background-color: #5CB805;
+}
+.progress-bar{
+	background-color: forestgreen;
+}
+.progress.active .progress-bar, .progress-bar.active{
+	animation:  progress-bar-stripes 1s linear infinite;
+}
+.our-skils{
+	margin-top: 0px;
+	background-color:white;
+}
+.our-skils h1{
+    text-align: center;
+}
+.our-skils .skils-progress .img-circle{
+	border-radius: 3%;
+}
+hr{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.skils-progress{
+	border: 2px solid #000000;
+	padding: 4px;
+	border-radius: 14px;
+	margin-bottom: 20px;
+	background-color: rgba(255,252,252,1.00);
+}
+.features{
+    background-color: #eee;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features h1{
+    margin-bottom: 40px;
+}
+.features.feat p{
+    line-height: 2em;
+}
+.features.feat span.glyphicon{
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #5bc0de;
+}
+.info_site .head_info{
+	text-align: center;
+}
+.info_site{
+	background-color:#eee;
+}
+/*contact section*/
+#contact-section{
+	background-color: white;
+	color: white;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', endColorstr='#c1a618', GradientType=0 ); /* IE6-9 */
+}
+#contact-section hr {
+	background: #a9971c;
+}
+#contact-section h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+#contact-section form {
+	padding: 30px 0;
+}
+#contact-section .fa {
+	color: black;
+	margin-bottom: 10px;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+#contact-section h3{
+	color: black;
+}
+#contact-section .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid black;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact-section .form-control:focus {
+	border-color: inherit;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+#contact-section .social {
+	margin-top: 20px;
+}
+#contact-section p{
+	color: black;
+}
+#contact-section .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact-section .social i.fa {
+	font-size: 26px;
+	padding: 4px 5px;
+	color: white;
+	background-color: red;
+	border-radius: 30%;
+	transition: all 0.5s;
+}
+#contact-section .social i.fa:hover {
+	background-color: black;
+	color: white;
+	
+}
+#contact-section .btn {
+	background-color: green;
+	border: 2px solid #fef9e7;
+	border-radius: 4px;
+	padding: 6px 14px;
+	margin-top: 20px;
+	color: #fef9e7;
+	font-size: 16px;
+	transition: all 0.5s;
+}
+#contact-section .btn:hover, #contact-section .btn:focus {
+	background-color: #C31114;
+	border: 2px solid #fef9e7;
+	color: white;
+}
+#contact-section .text-danger {
+	color: #cc3300;
+	text-align: left;
+}
+.btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+#footer {
+	background: #000000;
+	padding: 15px 0 10px 0;
+	color: #42626b;
+	text-align: center;
+}
+#footer p{
+	margin-top: 10px;
+}
+#footer a:hover{
+	color: white;
+}
+#accordion{
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+
+

@@ -1,0 +1,27 @@
+body{
+    background-color:aquamarine;
+}
+.formm1{
+	margin-top: 20px;
+}
+.formm2{
+	background-image: url(../images/mm.jpg);
+	padding-left: 14px;
+	padding-right: 14px;
+	padding-bottom: 1px;
+	height: 90%;
+	width: 110%;
+	
+}
+.formm1{
+    background-color: white;
+	padding: 14px;
+}
+.form-group .form-control{
+	width: 260px;
+	margin-top: 6px;
+	margin-bottom: 12px;
+}
+label{
+	font-size: 16px;
+}

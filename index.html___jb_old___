@@ -1,0 +1,370 @@
+<html>
+	<head>
+		<title>ben essa</title>
+		<meta charset="utf-8">
+		<!--meta for internet explorer-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--meta foe mobiles -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+	</head>
+	<body>
+					<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			  <div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+					<li><a target="_blank" href="login.html"><i class="fa fa-user-circle" aria-hidden="true"></i>&shy; Log In</a></li>
+					<li><a class="active" href="index.html"><i class="fa fa-home">&shy; Home</i></a></li>
+					<li class="dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-
+					   haspopup="true"aria-expanded="false"><i class="fa fa-briefcase" aria-hidden="true"></i>&shy; Jobs<span class="caret"></span></a> 
+					  <ul class="dropdown-menu">
+						<li><a href="electric.html" target="_blank">Electrician</a></li>
+						<li><a href="masoon.html" target="_blank">Builder</a></li>
+						<li><a href="carp.html" target="_blank">Carpenter</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="cleaner.html">Cleaner</a></li>
+						<li role="separator" class="divider"></li>
+						<li><a href="#">Plumber</a></li>
+					  </ul>
+					</li>
+					  <li><a href="#contact-section"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>feedback</a></li>
+					  <li><a href="team.html" target="_blank"><i class="fa fa-address-card-o" aria-hidden="true"></i>Concat Team</a></li>
+				  </ul>
+				  <form class="navbar-form navbar-right">
+					<div class="form-group">
+					  <input type="text" width="30px" height="5px" class="form-control"
+					   placeholder="Search">
+					</div>
+					<button type="submit" class="btn btn-success">Search</button>
+				  </form>
+				  <ul class="nav navbar-nav navbar-right">
+				  </ul>
+				</div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+		<div id="mm" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+			<li data-target="#mm" data-slide-to="0" class="active"></li>
+			<li data-target="#mm" data-slide-to="1"></li>
+			<li data-target="#mm" data-slide-to="2"></li>
+		  </ol>
+
+  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			<div class="item active">
+			  <img src="images/electrician.jpg" alt="...">
+			  <div class="carousel-caption hidden-xs">
+				<h1>Electrician</h1>
+				<p class="lead">in this site you can find your work very easy</p>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="images/banaa.jpg" alt="...">
+			  <div class="carousel-caption hidden-xs">
+				<h1>Builder</h1>
+				<p class="lead">in this site you can find your work very easy any thing about buldings who you want 
+				to achieve your work</p>
+			  </div>
+			</div>
+			<div class="item">
+			  <img src="images/carpenter.jpg" alt="...">
+			  <div class="carousel-caption hidden-xs">
+				<h1>Carpenter</h1>
+				<p class="lead">in this site you can find your work very easy we provide to you the most of the 
+				best carpenter in Minia</p>
+			  </div>
+			</div>
+		  </div>
+  <!-- Controls -->
+		  <a class="left carousel-control" href="#mm" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#mm" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		</div>
+       <div class="info_site">
+       <div class="container">
+       	<div class="row">
+       		<div class="col-lg-12">
+       			<div class="head_info">
+       			<h1 style="background-color:#FB0F00;color: white;border-radius: 20px 0px;"><i>Overview About This site</i></h1>
+       			</div>
+       		</div>
+       		<div class="col-lg-12">
+       		 <div id="accordion">
+      		   <h3>This site aims to help a vast majority of people through the following characteristics</h3>
+       		   <div class="card">
+				  <div class="card-header">
+					<a style="font-size: 20px;" class="collapsed card-link" data-toggle="collapse" 
+					data-parent="#accordion" href="#collapseTwo">
+					Read More About Site...
+				  </a>
+				  </div>
+				  <div id="collapseTwo" class="collapse">
+					<div class="card-body">
+					  <pre style="font-size: 16px;text-align: left;">
+•	Allow people to choose various jobs (plumber woodworker cabinetmaker 
+		ironsmith paver engraver ...............)
+•	Allow people to choose between available workers 
+•	Allow people to communicate with the desired worker 
+•	Allow people to see a real work for the desired worker 
+•	Allow the worker to upload its personal details (name – address – phone 
+		number(s) – email - Facebook profile link ……………)
+•	Allow the worker to upload its real world work to attract people to him and 
+		to help people to rate him  
+•	The website will display the workers according to their vote rate 
+•	The project allow the construction companies to choose the 
+		enterprisers(contractors)
+•	The project allow people to login in the website to benefit from the 
+				available offers 
+					  </pre>
+					</div>
+				  </div>
+				</div>
+			  </div>
+       	  </div>
+       	</div>
+       </div>
+       </div>
+        <section class="our-skils">
+            <div class="container">
+               <h1 style="text-align: center;background-color:#FB0F00;text-transform: capitalize; padding: 3px;color: white;border-bottom-left-radius: 20px;border-top-right-radius: 20px;">the best worker</h1>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="skils-progress">
+                           <span class="glyphicons glyphicons-user"></span>
+                            <h3 class="glyphicon glyphicon-user">&shy; Name: Mohamed ahmed</h3>
+                            <ul class="list-unstyled">
+                      		  <li><img src="images/electrician.jpg" class="img-responsive"></li><hr>
+                        	</ul> 
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">Rate : 90%</div>
+						</div><hr>
+                            <ul class="list-unstyled">
+                            	<li class="glyphicon glyphicon-home">&shy; Address: Abu Korkas</li><hr>
+                            	<li class="glyphicon glyphicon-phone">&shy; phone: 01041356814</li><hr>
+                            	<li class="glyphicon glyphicon-briefcase">&shy; Craft: Carpenter </li>
+                            	<hr>
+                            	<li class="btn btn-info btn-md">
+								  <span class="glyphicon glyphicon-thumbs-up"></span> Like
+								</li>
+                           	    <li class="btn btn-danger btn-md">
+								  <span class="glyphicon glyphicon-thumbs-down"></span> Unlike
+								</li>
+                            	<li class="btn btn-info">See Profile</li>
+                            	<li class="btn btn-success">feed back</li>
+                            </ul>
+                            <ul class="pagination">
+							  <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+							  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+							  <li class="page-item"><a class="page-link" href="#">2</a></li>
+							  <li class="page-item"><a class="page-link" href="#">3</a></li>
+							  <li class="page-item"><a class="page-link" href="#">4</a></li>
+							  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4"> 
+                        <div class="skils-progress">
+                            <h3 class="glyphicon glyphicon-user">&shy; Name: Esaam Khaled</h3>
+                            <ul class="list-unstyled">
+                            <li><br></li>
+                      		  <li><img src="images/carpenter.jpg" class="img-responsive"></li><hr>
+                        	</ul>    
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped active" role="progressbar"
+                                     aria-valuenow="80" aria-valuein="0" aria-valuemax="100"
+                                    style="width: 80%;" >Rate : 80%</div>
+                            </div><hr>
+                            <ul class="list-unstyled">
+                            	<li></li>
+                            	<li class="glyphicon glyphicon-home">&shy; Address: Abu Korkas</li><hr>
+                            	<li class="glyphicon glyphicon-phone">&shy; phone : 01041356814</li><hr>
+                            	<li class="glyphicon glyphicon-briefcase">&shy; Craft: Carpenter </li>
+                            	<hr>
+                            	<li class="btn btn-info btn-md">
+								  <span class="glyphicon glyphicon-thumbs-up"></span> Like
+								</li>
+                           	    <li class="btn btn-danger btn-md">
+								  <span class="glyphicon glyphicon-thumbs-down"></span> Unlike
+								</li>
+                            	<li class="btn btn-info">See Profile</li>
+                            	<li class="btn btn-success">feed back</li>
+                            </ul>
+                            <ul class="pagination">
+							  <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+							  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+							  <li class="page-item"><a class="page-link" href="#">2</a></li>
+							  <li class="page-item"><a class="page-link" href="#">3</a></li>
+							  <li class="page-item"><a class="page-link" href="#">4</a></li>
+							  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skils-progress">
+                        <h3 class="glyphicon glyphicon-user">&shy; Name: Mostafa Ismaiel</h3>
+                        <ul class="list-unstyled">
+                        <li><br></li>	
+                        <li><img src="images/mason.jpg" class="img-responsive"></li><hr>
+                        </ul>    
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped
+                                     active" role="progressbar"
+                                     aria-valuenow="70" aria-valuein="0" aria-valuemax="100"
+                                    style="width: 70%;" >Rate : 70%</div>
+                            </div><hr>
+                            <ul class="list-unstyled">
+                            	<li></li>
+                            	<li class="glyphicon glyphicon-home">&shy; Address: Abu Korkas</li><hr>
+                            	<li class="glyphicon glyphicon-phone">&shy; phone : 01041356814</li><hr>
+                            	<li class="glyphicon glyphicon-briefcase">&shy; Craft: Carpenter </li>
+                            	<hr>
+                            	<li class="btn btn-info btn-md">
+								  <span class="glyphicon glyphicon-thumbs-up"></span> Like
+								</li>
+                           	    <li class="btn btn-danger btn-md">
+								  <span class="glyphicon glyphicon-thumbs-down"></span> Unlike
+								</li>
+                            	<li class="btn btn-info">See Profile</li>
+                            	<li class="btn btn-success">feed back</li>
+                            </ul>
+                            <ul class="pagination">
+							  <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+							  <li class="page-item active"><a class="page-link" href="#">1</a></li>
+							  <li class="page-item"><a class="page-link" href="#">2</a></li>
+							  <li class="page-item"><a class="page-link" href="#">3</a></li>
+							  <li class="page-item"><a class="page-link" href="#">4</a></li>
+							  <li class="page-item"><a class="page-link" href="#">Next</a></li>
+							</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features text-center">
+            <div class="container">
+                <h1> Features </h1>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                           <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+                           <h4>100% Responsive</h4>
+                           <p>Group a series of buttons together on a single line with the button group.
+                               Add on optional JavaScript radio and checkbox style behavior</p>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                           <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                           <h4>Retina Ready</h4>
+                           <p>Group a series of buttons together on a single line with the button group.
+                               Add on optional JavaScript radio and checkbox style behavior</p>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-6 ">
+                        <div class="feat">
+                           <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span>
+                           <h4>Retina Un Ready</h4>
+                           <p>Group a series of buttons together on a single line with the button group.
+                               Add on optional JavaScript radio and checkbox style behavior</p>
+                        </div>
+                    </div>
+                      <div class="col-lg-3 col-md-6">
+                        <div class="feat">
+                           <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                           <h4>Awesome Display</h4>
+                           <p>Group a series of buttons together on a single line with the button group.
+                               Add on optional JavaScript radio and checkbox style behavior</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+	
+        <div id="contact-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2 style="background-color:#FB0F00; border-radius: 20px 0px;color: white;padding: 4px;"><strong>Feedback</strong></h2>
+      <hr><br>
+    </div>
+    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="200ms">
+      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+		  <p>Minia</p><br>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p>moh.essa@gmail.com</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <p> +2 01114205243</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="400ms">
+	<h3>Leave us a message (Feedback)</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100006778296166"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="https://github.com/benessaessa"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://instagram.com/moh.essa2020"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact_info%3BxvSMhcr7S72y%2FeOgKqIT%2BQ%3D%3D"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+       <div id="footer">
+  <div class="container">
+      <p>Copyright © Mohamed Essa Design by <a href="https://www.facebook.com/profile.php?id=100006778296166" >&shy; Ben_Essa</a></p>
+  </div>
+</div>
+        
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
